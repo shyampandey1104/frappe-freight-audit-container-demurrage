@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include freight_audit_demurrage *.css
+recursive-include freight_audit_demurrage *.csv
+recursive-include freight_audit_demurrage *.html
+recursive-include freight_audit_demurrage *.ico
+recursive-include freight_audit_demurrage *.js
+recursive-include freight_audit_demurrage *.json
+recursive-include freight_audit_demurrage *.md
+recursive-include freight_audit_demurrage *.png
+recursive-include freight_audit_demurrage *.py
+recursive-include freight_audit_demurrage *.svg
+recursive-include freight_audit_demurrage *.txt
+recursive-exclude freight_audit_demurrage *.pyc

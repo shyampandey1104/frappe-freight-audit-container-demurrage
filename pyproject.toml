@@ -1,0 +1,11 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "frappe-freight-audit-container-demurrage"
+authors = [{name = "Shyam Kumar Pandey", email = "shyamkumarpandey1104@gmail.com"}]
+description = "Frappe Ocean Freight Bill Audit & Container Detention Demurrage Ledger: Surcharge Verification & Dispute Resolution."
+version = "1.0.0"
+readme = "README.md"
+classifiers = ["Framework :: Frappe"]
